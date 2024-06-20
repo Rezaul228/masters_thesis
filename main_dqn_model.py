@@ -1,8 +1,9 @@
+# DQN model for multi-agent reinforcement learning 
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-from production_env_edited import *
+from custom_production_env import *
 import tensorflow.compat.v1 as tf
 from open_spiel.python.algorithms import dqn
 import matplotlib.pyplot as plt
